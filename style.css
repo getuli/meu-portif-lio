@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+}
+.firstcabecalho{
+    width: 100%;
+    height: 20%;
+    background-color: black;
+
+}
+.cabecalho{
+    color: white;
+    font-weight: 100;
+    text-align: center;
+}
