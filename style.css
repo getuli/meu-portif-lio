@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+.firstcabecalho{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
 
 .firstcorpo {
     display: flex;
@@ -17,13 +23,72 @@
 }
 
 .texto {
+    margin-left: 5%;
     padding: 20px;
+    width: 40%;
+    border: 2px solid black;
 }
 
 .foto {
+    margin-left: 20%;
     padding: 20px;
 }
+
+/* Ajuste de largura para telas menores */
+@media screen and (max-width: 768px) {
+    .texto {
+        width: 80%; /* Reduza a largura para telas menores */
+    }
+}
+
 div img{
-    height: 100px;
-    width: 100px;
+    height: 380px;
+    width: 280px;
+}
+.barrameio{
+    width: 100%;
+    padding: 50px;
+    background-color: black;
+}
+
+.meu-artigo {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.meu-artigo h2 {
+    color: #333;
+    margin-top: 20px;
+}
+
+.meu-artigo p {
+    color: #666;
+}
+
+.minha-lista {
+    list-style-type: none;
+    padding: 0;
+}
+
+.minha-lista li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.minha-lista li:last-child {
+    border-bottom: none;
+}
+
+.minha-lista a {
+    text-decoration: none;
+    color: blue;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
 }
