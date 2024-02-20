@@ -1,36 +1,29 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-}
-
-.firstcabecalho {
-    width: 100%;
-    height: 20%;
-    background-color: black;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .firstcorpo {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80%;
+    justify-content: center; /* Alinha os itens horizontalmente */
+    align-items: center; /* Alinha os itens verticalmente */
+    height: 80vh; /* Altura ajustada conforme necessário */
 }
 
-div img {
-    height: 100px;
-    width: 100px;
+.container {
+    display: flex;
+    align-items: center; /* Alinha os itens verticalmente */
 }
 
 .texto {
     padding: 20px;
-    width: 500px;
 }
 
-.firstfoto {
+.foto {
     padding: 20px;
+}
+div img{
+    height: 100px;
+    width: 100px;
 }
