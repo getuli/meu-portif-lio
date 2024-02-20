@@ -1,14 +1,36 @@
-*{
+* {
     margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
-.firstcabecalho{
+
+.firstcabecalho {
     width: 100%;
     height: 20%;
     background-color: black;
-
-}
-.cabecalho{
     color: white;
-    font-weight: 100;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.firstcorpo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+div img {
+    height: 100px;
+    width: 100px;
+}
+
+.texto {
+    padding: 20px;
+    width: 500px;
+}
+
+.firstfoto {
+    padding: 20px;
 }
